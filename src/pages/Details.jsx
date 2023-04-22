@@ -13,7 +13,7 @@ const Details = () => {
   };
 
   return (
-    <div className="bg-neutral-900 min-h-screen">
+    <div className="bg-neutral-900 min-h-screen animate-smoothLoad">
       <div className="max-w-[75rem] bg-neutral-800 shadow-md mx-auto min-h-screen px-4 py-10 flex flex-col items-center">
         <h1 className="text-center text-white text-5xl font-bold upper sm:text-3xl">
           {project.name}
@@ -48,11 +48,7 @@ const Details = () => {
             <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
               Git Repo:
             </p>
-            <a
-              target="_blank"
-              href={project.github}
-              className="break-all text-red-400"
-            >
+            <a target="_blank" href={project.github} className="break-all">
               {project.github}
             </a>
           </div>

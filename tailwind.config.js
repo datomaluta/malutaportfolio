@@ -8,6 +8,15 @@ export default {
         lg: { max: "1023px" },
         sm: { max: "639px" },
       },
+      animation: {
+        smoothLoad: "smooth 0.8s ease-out forwards",
+      },
+      keyframes: {
+        smooth: {
+          from: { opacity: "0", transform: "translateY(-50px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+      },
     },
   },
   plugins: [],

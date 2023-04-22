@@ -5,7 +5,7 @@ import { useContext } from "react";
 const Main = () => {
   const ctx = useContext(ProjectsContext);
   return (
-    <div className="bg-neutral-900 min-h-screen">
+    <div className="bg-neutral-900 min-h-screen animate-smoothLoad">
       <div className="max-w-[75rem] bg-neutral-800 shadow-md mx-auto min-h-screen px-4 py-10">
         <h1 className="text-center text-white text-5xl font-bold upper sm:text-3xl">
           My Projects
