@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const SiteCard = (props) => {
-  // console.log(props.imgsrc);
   return (
     <Link to={`/project/${props.id}`}>
       <div className="max-w-[21.875rem] h-72 bg-neutral-900 flex flex-col rounded overflow-hidden sm:w-full">
