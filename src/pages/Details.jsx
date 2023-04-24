@@ -44,14 +44,43 @@ const Details = () => {
             </ul>
           </div>
 
-          <div className="flex text-white text-xl sm:text-base">
-            <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
-              Git Repo:
-            </p>
-            <a target="_blank" href={project.github} className="break-all">
-              {project.github}
-            </a>
-          </div>
+          {project.type === "fullstack" ? (
+            <>
+              <div className="flex text-white text-xl sm:text-base">
+                <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
+                  Git Repo (back):
+                </p>
+                <a
+                  target="_blank"
+                  href={project.github_back}
+                  className="break-all"
+                >
+                  {project.github_back}
+                </a>
+              </div>
+              <div className="flex text-white text-xl sm:text-base">
+                <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
+                  Git Repo (front):
+                </p>
+                <a
+                  target="_blank"
+                  href={project.github_front}
+                  className="break-all"
+                >
+                  {project.github_front}
+                </a>
+              </div>
+            </>
+          ) : (
+            <div className="flex text-white text-xl sm:text-base">
+              <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
+                Git Repo:
+              </p>
+              <a target="_blank" href={project.github} className="break-all">
+                {project.github}
+              </a>
+            </div>
+          )}
 
           <div className="flex  text-white text-xl sm:text-base">
             <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">

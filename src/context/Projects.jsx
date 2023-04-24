@@ -25,8 +25,10 @@ export const ProjectsProvider = (props) => {
       description:
         "Epic movie quotes - is a platform where users can first register, then log in and view quotes from movies. Also add quotes, movies. update data, change their user data, etc. NOT FINISHED, STILL IN PROGRESS!!!",
       stack: ["Laravel", "next.js", "typescript", "tailwind"],
-      github: "https:\\github.com",
-      liveURL: "https:\\netlify.com",
+      type: "fullstack",
+      github_back: "https://github.com/datomaluta/epic-movie-quotes-back",
+      github_front: "https://github.com/datomaluta/epic-movie-quotes-front",
+      liveURL: "Not available yet!",
     },
     {
       id: 2,
@@ -37,7 +39,7 @@ export const ProjectsProvider = (props) => {
       stack: ["React.js", "tailwind", "React hook form"],
       github:
         "https://github.com/datomaluta/covid-questionare-redberry-project",
-      liveURL: "https:\\netlify.com",
+      liveURL: "Not Available Yet",
     },
     {
       id: 3,
@@ -47,7 +49,7 @@ export const ProjectsProvider = (props) => {
         "Coronatime - is a platform where we can register, go through authorization (as well as restore the password if we have forgotten it) and see what the situation is today in the countries of the world.",
       stack: ["Laravel", "tailwind", "Spatie"],
       github: "https://github.com/datomaluta/coronatime-redberry-project",
-      liveURL: "https:\\netlify.com",
+      liveURL: "Not Available Yet",
     },
     {
       id: 4,
@@ -57,7 +59,7 @@ export const ProjectsProvider = (props) => {
         "Movie Quotes is platform where you can see random movie’s quotes. This platform has admin panel, where you can add/edit movies and quotes.",
       stack: ["Laravel", "tailwind"],
       github: "https://github.com/datomaluta/movie-quotes-redberry",
-      liveURL: "https:\\netlify.com",
+      liveURL: "Not Avaliable yet!",
     },
     {
       id: 5,
