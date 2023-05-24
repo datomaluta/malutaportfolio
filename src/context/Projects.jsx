@@ -14,12 +14,33 @@ import farmverstImg from "../assets/images/farmvest.jpg";
 import bankAccImg from "../assets/images/bankacc.jpg";
 import forkifyImg from "../assets/images/forkify.jpg";
 import omnifoodImg from "../assets/images/omnifood.jpg";
+import maliaNewsImg from "../assets/images/malianews.jpg";
 const ProjectsContext = React.createContext();
 
 export const ProjectsProvider = (props) => {
   const projects = [
     {
-      id: 1,
+      id: 16,
+      name: "News Site",
+      imgsrc: maliaNewsImg,
+      description:
+        "A news site is a platform where you can read news about politics, society, and sports. The app language is Georgian. It features a search functionality, dark/light theme mode, and also an admin functionality. If you register and authenticated with laravel sanctum, you will have permission to access the admin panel and create, edit, or delete news.",
+      stack: [
+        "Laravel",
+        "React.js",
+        "Javascript",
+        "tailwind",
+        "React hook form",
+        "Sanctum",
+      ],
+      type: "fullstack",
+      withVideo: true,
+      github_back: "https://github.com/datomaluta/inews-back.git",
+      github_front: "https://github.com/datomaluta/inews-front.git",
+      liveURL: "Not available yet!",
+    },
+    {
+      id: 15,
       name: "Epic Movie Quotes",
       imgsrc: epicImg,
       description:
@@ -31,7 +52,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "Not available yet!",
     },
     {
-      id: 2,
+      id: 14,
       name: "Covid Quiestionare",
       imgsrc: covidQuestionareImg,
       description:
@@ -42,7 +63,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "Not Available Yet",
     },
     {
-      id: 3,
+      id: 13,
       name: "Coronatime",
       imgsrc: coronatimeImg,
       description:
@@ -52,7 +73,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "Not Available Yet",
     },
     {
-      id: 4,
+      id: 12,
       name: "Movie Quotes",
       imgsrc: movieQuotesImg,
       description:
@@ -62,7 +83,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "Not Avaliable yet!",
     },
     {
-      id: 5,
+      id: 11,
       name: "Redberry Laptop",
       imgsrc: redberryLaptopImg,
       description:
@@ -72,7 +93,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://redberry-laptop-datomaluta.netlify.app/home",
     },
     {
-      id: 6,
+      id: 10,
       name: "Sweeft Project",
       imgsrc: sweeftAccImg,
       description:
@@ -83,7 +104,7 @@ export const ProjectsProvider = (props) => {
         "API URL IS cancelled and SITE IS NOT WORKING IN THE CORRECT WAY",
     },
     {
-      id: 7,
+      id: 9,
       name: "E-commerce istore",
       imgsrc: ishopImg,
       description:
@@ -103,7 +124,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://tipcalculate-datomaluta.netlify.app/",
     },
     {
-      id: 9,
+      id: 7,
       name: "Quiz",
       imgsrc: quizImg,
       description:
@@ -113,7 +134,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://maliaquiz.netlify.app/",
     },
     {
-      id: 10,
+      id: 6,
       name: "Casino Main Page",
       imgsrc: casinoImg,
       description:
@@ -123,7 +144,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://casinomalia.netlify.app/",
     },
     {
-      id: 11,
+      id: 5,
       name: "Foord order",
       imgsrc: foordOrderImg,
       description:
@@ -133,7 +154,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://maliafoodorder.netlify.app/",
     },
     {
-      id: 12,
+      id: 4,
       name: "Farmvest",
       imgsrc: farmverstImg,
       description:
@@ -143,7 +164,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://farmvest-malia.netlify.app/",
     },
     {
-      id: 14,
+      id: 3,
       name: "Bank Account",
       imgsrc: bankAccImg,
       description:
@@ -153,7 +174,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://malia-bank-acc.netlify.app/",
     },
     {
-      id: 15,
+      id: 2,
       name: "Omnifood",
       imgsrc: omnifoodImg,
       description:
@@ -163,7 +184,7 @@ export const ProjectsProvider = (props) => {
       liveURL: "https://maliafood.netlify.app/",
     },
     {
-      id: 16,
+      id: 1,
       name: "Forkify",
       imgsrc: forkifyImg,
       description:

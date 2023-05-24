@@ -24,9 +24,28 @@ const Details = () => {
         >
           Back to home
         </button>
-        <div className="max-w-[60rem] mt-8 rounded overflow-hidden">
-          <img className="w-full h-full object-cover" src={project.imgsrc} />
-        </div>
+
+        {project.withVideo ? (
+          <div className="max-w-[60rem] h-[25rem] sm:h-[14rem] w-full  mt-8 rounded overflow-hidden flex justify-center">
+            <iframe
+              src="https://www.youtube.com/embed/VdTCnrt4fQ0"
+              frameBorder="0"
+              allowFullScreen
+              style={{
+                maxWidth: "700px",
+                width: "100%",
+                maxHeight: "400px",
+                height: "100%",
+              }}
+            ></iframe>
+          </div>
+        ) : (
+          <div className="max-w-[60rem]  mt-8 rounded overflow-hidden flex justify-center">
+            <img className="w-full h-full object-cover" src={project.imgsrc} />
+          </div>
+        )}
+
+        {/* <img className="w-full h-full object-cover" src={project.imgsrc} /> */}
         <div className="max-w-[60rem] bg-red-5004 w-full mt-8 flex flex-col gap-6">
           <div className="flex text-white text-xl sm:text-base">
             <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
