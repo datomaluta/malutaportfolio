@@ -15,6 +15,7 @@ import bankAccImg from "../assets/images/bankacc.jpg";
 import forkifyImg from "../assets/images/forkify.jpg";
 import omnifoodImg from "../assets/images/omnifood.jpg";
 import maliaNewsImg from "../assets/images/malianews.jpg";
+import natoursImg from "../assets/images/natours.jpg";
 const ProjectsContext = React.createContext();
 
 export const ProjectsProvider = (props) => {
@@ -34,7 +35,7 @@ export const ProjectsProvider = (props) => {
         "Sanctum",
       ],
       type: "fullstack",
-      withVideo: true,
+      videoEmbed: "https://www.youtube.com/embed/VdTCnrt4fQ0",
       github_back: "https://github.com/datomaluta/inews-back.git",
       github_front: "https://github.com/datomaluta/inews-front.git",
       liveURL: "Not available yet!",
@@ -60,7 +61,7 @@ export const ProjectsProvider = (props) => {
       stack: ["React.js", "tailwind", "React hook form"],
       github:
         "https://github.com/datomaluta/covid-questionare-redberry-project",
-      liveURL: "Not Available Yet",
+      liveURL: "https://covid-questionare.netlify.app/",
     },
     {
       id: 13,
@@ -69,6 +70,7 @@ export const ProjectsProvider = (props) => {
       description:
         "Coronatime - is a platform where we can register, go through authorization (as well as restore the password if we have forgotten it) and see what the situation is today in the countries of the world.",
       stack: ["Laravel", "tailwind", "Spatie"],
+      videoEmbed: "https://www.youtube.com/embed/vEtbZ80SjEA",
       github: "https://github.com/datomaluta/coronatime-redberry-project",
       liveURL: "Not Available Yet",
     },
@@ -79,6 +81,7 @@ export const ProjectsProvider = (props) => {
       description:
         "Movie Quotes is platform where you can see random movie’s quotes. This platform has admin panel, where you can add/edit movies and quotes.",
       stack: ["Laravel", "tailwind"],
+      videoEmbed: "https://www.youtube.com/embed/T7km5TJmuUw",
       github: "https://github.com/datomaluta/movie-quotes-redberry",
       liveURL: "Not Avaliable yet!",
     },
@@ -162,6 +165,16 @@ export const ProjectsProvider = (props) => {
       stack: ["HTML", "CSS"],
       github: "https://github.com/datomaluta/Farmvest",
       liveURL: "https://farmvest-malia.netlify.app/",
+    },
+    {
+      id: 100,
+      name: "Natours",
+      imgsrc: natoursImg,
+      description:
+        "Landing page with various interesting features. It has no functionality, only design is made.",
+      stack: ["HTML", "SCSS"],
+      github: "https://github.com/datomaluta/natours.git",
+      liveURL: "https://idyllic-sundae-85639b.netlify.app/",
     },
     {
       id: 3,

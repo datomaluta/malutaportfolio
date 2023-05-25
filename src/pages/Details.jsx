@@ -25,10 +25,10 @@ const Details = () => {
           Back to home
         </button>
 
-        {project.withVideo ? (
+        {project.videoEmbed ? (
           <div className="max-w-[60rem] h-[25rem] sm:h-[14rem] w-full  mt-8 rounded overflow-hidden flex justify-center">
             <iframe
-              src="https://www.youtube.com/embed/VdTCnrt4fQ0"
+              src={project.videoEmbed}
               frameBorder="0"
               allowFullScreen
               style={{
