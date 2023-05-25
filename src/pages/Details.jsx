@@ -54,13 +54,15 @@ const Details = () => {
             <p>{project.description}</p>
           </div>
 
-          <div className="flex  text-white text-xl sm:text-base">
-            <p className="font-bold text-orange-500 w-28 sm:w-24 ">Stack:</p>
-            <ul className="flex gap-2">
+          <div className="flex text-white text-xl sm:text-base">
+            <p className="font-bold text-orange-500  w-28 sm:w-24 shrink-0">
+              Stack:
+            </p>
+            <div className="flex gap-2 flex-wrap">
               {project.stack.map((item) => (
-                <li key={item}>{item},</li>
+                <p key={item}>{item},</p>
               ))}
-            </ul>
+            </div>
           </div>
 
           {project.type === "fullstack" ? (
