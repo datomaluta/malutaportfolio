@@ -101,7 +101,7 @@ export const ProjectsProvider = (props) => {
       imgsrc: sweeftAccImg,
       description:
         "In this application you can see data which is fetched from api with infinite scrolling and also detail info about certain user. where you can see friendslist.",
-      stack: ["Laravel", "tailwind"],
+      stack: ["React.js", "tailwind"],
       github: "https://github.com/datomaluta/sweeft-acceleration-project",
       liveURL:
         "API URL IS cancelled and SITE IS NOT WORKING IN THE CORRECT WAY",
