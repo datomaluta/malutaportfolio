@@ -16,10 +16,31 @@ import forkifyImg from "../assets/images/forkify.jpg";
 import omnifoodImg from "../assets/images/omnifood.jpg";
 import maliaNewsImg from "../assets/images/malianews.jpg";
 import natoursImg from "../assets/images/natours.jpg";
+import istoreImg from "../assets/images/istore.png";
 const ProjectsContext = React.createContext();
 
 export const ProjectsProvider = (props) => {
   const projects = [
+    {
+      id: 17,
+      name: "istore e-commerce",
+      imgsrc: istoreImg,
+      description:
+        "e-commerce website for computers. The app language is Georgian and english. It has a search functionality, dark/light theme mode, and also an admin functionality. If you register and authenticated with laravel sanctum, you will have permission to access the admin panel and create, edit, or delete product.",
+      stack: [
+        "Laravel",
+        "React.js",
+        "Javascript",
+        "Typescript",
+        "tailwind",
+        "React hook form",
+        "Sanctum",
+      ],
+      type: "fullstack",
+      github_back: "https://github.com/datomaluta/istore-back.git",
+      github_front: "https://github.com/datomaluta/istore-front.git",
+      liveURL: "https://istore-maluta.netlify.app/",
+    },
     {
       id: 16,
       name: "News Site",
