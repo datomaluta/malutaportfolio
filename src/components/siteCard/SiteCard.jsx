@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const SiteCard = (props) => {
   return (
-    <Link to={`/project/${props.id}`}>
-      <div className="max-w-[21.875rem] h-72 bg-neutral-900 flex flex-col rounded overflow-hidden sm:w-full">
+    <Link className="max-w-[21.875rem] w-full h-72" to={`/project/${props.id}`}>
+      <div className="bg-neutral-900 flex flex-col rounded overflow-hidden sm:w-full">
         <div className="w-full h-60 overflow-hidden">
           <img
             src={props.imgsrc}
