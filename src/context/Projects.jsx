@@ -17,10 +17,29 @@ import omnifoodImg from "../assets/images/omnifood.jpg";
 import maliaNewsImg from "../assets/images/malianews.jpg";
 import natoursImg from "../assets/images/natours.jpg";
 import istoreImg from "../assets/images/istore.png";
+import metablogImg from "../assets/images/metablog.jpg";
 const ProjectsContext = React.createContext();
 
 export const ProjectsProvider = (props) => {
   const projects = [
+    {
+      id: 18,
+      name: "MERN stack blog",
+      imgsrc: metablogImg,
+      description:
+        "The project is a blogging platform with two roles: Admin and User. Users can register, log in, post content, and manage their posts on a personal dashboard. They can also comment, like, edit, and delete their own comments. Admins have full access to all content and user information, allowing them to manage and edit or delete any post or comment. Unauthorized users will be redirected to the login page. The site will support dark/light modes and Google authentication.",
+      stack: [
+        "Node.js/Express.js",
+        "React.js",
+        "Javascript",
+        "Typescript",
+        "tailwind",
+        "React hook form",
+        "MongoDB",
+      ],
+      github: "https://github.com/datomaluta/mern-blog",
+      liveURL: "https://mern-blog-gg9u.onrender.com/",
+    },
     {
       id: 17,
       name: "istore e-commerce",
