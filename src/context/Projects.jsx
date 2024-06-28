@@ -80,18 +80,18 @@ export const ProjectsProvider = (props) => {
       github_front: "https://github.com/datomaluta/inews-front.git",
       liveURL: "Not available yet!",
     },
-    {
-      id: 15,
-      name: "Epic Movie Quotes",
-      imgsrc: epicImg,
-      description:
-        "Epic movie quotes - is a platform where users can first register, then log in and view quotes from movies. Also add quotes, movies. update data, change their user data, etc. NOT FINISHED, STILL IN PROGRESS!!!",
-      stack: ["Laravel", "next.js", "typescript", "tailwind"],
-      type: "fullstack",
-      github_back: "https://github.com/datomaluta/epic-movie-quotes-back",
-      github_front: "https://github.com/datomaluta/epic-movie-quotes-front",
-      liveURL: "Not available yet!",
-    },
+    // {
+    //   id: 15,
+    //   name: "Epic Movie Quotes",
+    //   imgsrc: epicImg,
+    //   description:
+    //     "Epic movie quotes - is a platform where users can first register, then log in and view quotes from movies. Also add quotes, movies. update data, change their user data, etc. NOT FINISHED, STILL IN PROGRESS!!!",
+    //   stack: ["Laravel", "next.js", "typescript", "tailwind"],
+    //   type: "fullstack",
+    //   github_back: "https://github.com/datomaluta/epic-movie-quotes-back",
+    //   github_front: "https://github.com/datomaluta/epic-movie-quotes-front",
+    //   liveURL: "Not available yet!",
+    // },
     {
       id: 14,
       name: "Covid Quiestionare",
@@ -114,27 +114,27 @@ export const ProjectsProvider = (props) => {
       github: "https://github.com/datomaluta/coronatime-redberry-project",
       liveURL: "Not Available Yet",
     },
-    {
-      id: 12,
-      name: "Movie Quotes",
-      imgsrc: movieQuotesImg,
-      description:
-        "Movie Quotes is platform where you can see random movie’s quotes. This platform has admin panel, where you can add/edit movies and quotes.",
-      stack: ["Laravel", "tailwind"],
-      videoEmbed: "https://www.youtube.com/embed/T7km5TJmuUw",
-      github: "https://github.com/datomaluta/movie-quotes-redberry",
-      liveURL: "Not Avaliable yet!",
-    },
-    {
-      id: 11,
-      name: "Redberry Laptop",
-      imgsrc: redberryLaptopImg,
-      description:
-        "Redberry Laptop App is a platform where employee can fill out a big form where is two segment of form. First is about employee and second about his/her laptop. Finally, data which got by form, stored and we can see it in records list. unfortunetely, API is dismissed and site can't work in the correct way.",
-      stack: ["Laravel", "tailwind"],
-      github: "https://github.com/datomaluta/redberry-laptop",
-      liveURL: "https://redberry-laptop-datomaluta.netlify.app/home",
-    },
+    // {
+    //   id: 12,
+    //   name: "Movie Quotes",
+    //   imgsrc: movieQuotesImg,
+    //   description:
+    //     "Movie Quotes is platform where you can see random movie’s quotes. This platform has admin panel, where you can add/edit movies and quotes.",
+    //   stack: ["Laravel", "tailwind"],
+    //   videoEmbed: "https://www.youtube.com/embed/T7km5TJmuUw",
+    //   github: "https://github.com/datomaluta/movie-quotes-redberry",
+    //   liveURL: "Not Avaliable yet!",
+    // },
+    // {
+    //   id: 11,
+    //   name: "Redberry Laptop",
+    //   imgsrc: redberryLaptopImg,
+    //   description:
+    //     "Redberry Laptop App is a platform where employee can fill out a big form where is two segment of form. First is about employee and second about his/her laptop. Finally, data which got by form, stored and we can see it in records list. unfortunetely, API is dismissed and site can't work in the correct way.",
+    //   stack: ["Laravel", "tailwind"],
+    //   github: "https://github.com/datomaluta/redberry-laptop",
+    //   liveURL: "https://redberry-laptop-datomaluta.netlify.app/home",
+    // },
     {
       id: 10,
       name: "Sweeft Project",
@@ -146,16 +146,16 @@ export const ProjectsProvider = (props) => {
       liveURL:
         "API URL IS cancelled and SITE IS NOT WORKING IN THE CORRECT WAY",
     },
-    {
-      id: 9,
-      name: "E-commerce istore",
-      imgsrc: ishopImg,
-      description:
-        "This is an e-commerce web application with my vision of design. Data is fetched from a free API. You can view the main page and also the shop page, where you can see certain products if you click an item. by clicking on add button, item will add to cart and also you can see your cart where are chosen products. Job is not finished, site is under working!!!",
-      stack: ["React", "javascript", "SCSS"],
-      github: "https://github.com/datomaluta/Istore-shop",
-      liveURL: "https://unique-pithivier-519631.netlify.app/",
-    },
+    // {
+    //   id: 9,
+    //   name: "E-commerce istore",
+    //   imgsrc: ishopImg,
+    //   description:
+    //     "This is an e-commerce web application with my vision of design. Data is fetched from a free API. You can view the main page and also the shop page, where you can see certain products if you click an item. by clicking on add button, item will add to cart and also you can see your cart where are chosen products. Job is not finished, site is under working!!!",
+    //   stack: ["React", "javascript", "SCSS"],
+    //   github: "https://github.com/datomaluta/Istore-shop",
+    //   liveURL: "https://unique-pithivier-519631.netlify.app/",
+    // },
     {
       id: 8,
       name: "Tip Calculator",
@@ -166,36 +166,36 @@ export const ProjectsProvider = (props) => {
       github: "https://github.com/datomaluta/TipCalculator",
       liveURL: "https://tipcalculate-datomaluta.netlify.app/",
     },
-    {
-      id: 7,
-      name: "Quiz",
-      imgsrc: quizImg,
-      description:
-        "This is simple quiz where are three types of question. there is progress bar and also user can see attempts history.",
-      stack: ["React", "javascript", "CSS"],
-      github: "https://github.com/datomaluta/myQuiz",
-      liveURL: "https://maliaquiz.netlify.app/",
-    },
-    {
-      id: 6,
-      name: "Casino Main Page",
-      imgsrc: casinoImg,
-      description:
-        "This is the casino site's main page, where data is fetched from the API. There is search functionality and a load more feature.",
-      stack: ["React", "javascript", "CSS"],
-      github: "https://github.com/datomaluta/Casino",
-      liveURL: "https://casinomalia.netlify.app/",
-    },
-    {
-      id: 5,
-      name: "Foord order",
-      imgsrc: foordOrderImg,
-      description:
-        "Food order simple application where you can choose some of the food from list. This project is from Maximilian Schwarzmüller react.js course.",
-      stack: ["React", "javascript", "CSS"],
-      github: "https://github.com/datomaluta/Food-Order",
-      liveURL: "https://maliafoodorder.netlify.app/",
-    },
+    // {
+    //   id: 7,
+    //   name: "Quiz",
+    //   imgsrc: quizImg,
+    //   description:
+    //     "This is simple quiz where are three types of question. there is progress bar and also user can see attempts history.",
+    //   stack: ["React", "javascript", "CSS"],
+    //   github: "https://github.com/datomaluta/myQuiz",
+    //   liveURL: "https://maliaquiz.netlify.app/",
+    // },
+    // {
+    //   id: 6,
+    //   name: "Casino Main Page",
+    //   imgsrc: casinoImg,
+    //   description:
+    //     "This is the casino site's main page, where data is fetched from the API. There is search functionality and a load more feature.",
+    //   stack: ["React", "javascript", "CSS"],
+    //   github: "https://github.com/datomaluta/Casino",
+    //   liveURL: "https://casinomalia.netlify.app/",
+    // },
+    // {
+    //   id: 5,
+    //   name: "Foord order",
+    //   imgsrc: foordOrderImg,
+    //   description:
+    //     "Food order simple application where you can choose some of the food from list. This project is from Maximilian Schwarzmüller react.js course.",
+    //   stack: ["React", "javascript", "CSS"],
+    //   github: "https://github.com/datomaluta/Food-Order",
+    //   liveURL: "https://maliafoodorder.netlify.app/",
+    // },
     {
       id: 4,
       name: "Farmvest",
@@ -216,16 +216,16 @@ export const ProjectsProvider = (props) => {
       github: "https://github.com/datomaluta/natours.git",
       liveURL: "https://idyllic-sundae-85639b.netlify.app/",
     },
-    {
-      id: 3,
-      name: "Bank Account",
-      imgsrc: bankAccImg,
-      description:
-        "Simple application where the user can see his/her transactions, transfer money, and borrow money from the bank.",
-      stack: ["Javascript", "React", "HTML", "CSS"],
-      github: "https://github.com/datomaluta/bank-acc",
-      liveURL: "https://malia-bank-acc.netlify.app/",
-    },
+    // {
+    //   id: 3,
+    //   name: "Bank Account",
+    //   imgsrc: bankAccImg,
+    //   description:
+    //     "Simple application where the user can see his/her transactions, transfer money, and borrow money from the bank.",
+    //   stack: ["Javascript", "React", "HTML", "CSS"],
+    //   github: "https://github.com/datomaluta/bank-acc",
+    //   liveURL: "https://malia-bank-acc.netlify.app/",
+    // },
     {
       id: 2,
       name: "Omnifood",
@@ -236,16 +236,16 @@ export const ProjectsProvider = (props) => {
       github: "https://github.com/datomaluta/omnifood",
       liveURL: "https://maliafood.netlify.app/",
     },
-    {
-      id: 1,
-      name: "Forkify",
-      imgsrc: forkifyImg,
-      description:
-        "Application where user can see food recipes or create his/her own.",
-      stack: ["Javascript", "HTML", "CSS"],
-      github: "https://github.com/datomaluta/forkifyProject",
-      liveURL: "https://forkify-malia.netlify.app/",
-    },
+    // {
+    //   id: 1,
+    //   name: "Forkify",
+    //   imgsrc: forkifyImg,
+    //   description:
+    //     "Application where user can see food recipes or create his/her own.",
+    //   stack: ["Javascript", "HTML", "CSS"],
+    //   github: "https://github.com/datomaluta/forkifyProject",
+    //   liveURL: "https://forkify-malia.netlify.app/",
+    // },
   ];
   return (
     <ProjectsContext.Provider value={{ projects: projects }}>
