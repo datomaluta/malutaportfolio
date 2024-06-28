@@ -101,7 +101,7 @@ export const ProjectsProvider = (props) => {
       stack: ["React.js", "tailwind", "React hook form"],
       github:
         "https://github.com/datomaluta/covid-questionare-redberry-project",
-      liveURL: "https://covid-questionare.netlify.app/",
+      liveURL: "API is dismissed and site can't work in the correct way",
     },
     {
       id: 13,
