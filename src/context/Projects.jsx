@@ -135,17 +135,17 @@ export const ProjectsProvider = (props) => {
     //   github: "https://github.com/datomaluta/redberry-laptop",
     //   liveURL: "https://redberry-laptop-datomaluta.netlify.app/home",
     // },
-    {
-      id: 10,
-      name: "Sweeft Project",
-      imgsrc: sweeftAccImg,
-      description:
-        "In this application you can see data which is fetched from api with infinite scrolling and also detail info about certain user. where you can see friendslist.",
-      stack: ["React.js", "tailwind"],
-      github: "https://github.com/datomaluta/sweeft-acceleration-project",
-      liveURL:
-        "API URL IS cancelled and SITE IS NOT WORKING IN THE CORRECT WAY",
-    },
+    // {
+    //   id: 10,
+    //   name: "Sweeft Project",
+    //   imgsrc: sweeftAccImg,
+    //   description:
+    //     "In this application you can see data which is fetched from api with infinite scrolling and also detail info about certain user. where you can see friendslist.",
+    //   stack: ["React.js", "tailwind"],
+    //   github: "https://github.com/datomaluta/sweeft-acceleration-project",
+    //   liveURL:
+    //     "API URL IS cancelled and SITE IS NOT WORKING IN THE CORRECT WAY",
+    // },
     // {
     //   id: 9,
     //   name: "E-commerce istore",
