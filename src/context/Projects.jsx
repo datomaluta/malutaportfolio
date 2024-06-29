@@ -14,7 +14,7 @@ import farmverstImg from "../assets/images/farmvest.jpg";
 import bankAccImg from "../assets/images/bankacc.jpg";
 import forkifyImg from "../assets/images/forkify.jpg";
 import omnifoodImg from "../assets/images/omnifood.jpg";
-import maliaNewsImg from "../assets/images/malianews.jpg";
+import maliaNewsImg from "../assets/images/news.jpg";
 import natoursImg from "../assets/images/natours.jpg";
 import istoreImg from "../assets/images/istore.png";
 import metablogImg from "../assets/images/metablog.jpg";
@@ -75,7 +75,7 @@ export const ProjectsProvider = (props) => {
         "Sanctum",
       ],
       type: "fullstack",
-      videoEmbed: "https://www.youtube.com/embed/VdTCnrt4fQ0",
+      videoEmbed: "https://www.youtube.com/embed/n_Fbo5jJ4DE",
       github_back: "https://github.com/datomaluta/inews-back.git",
       github_front: "https://github.com/datomaluta/inews-front.git",
       liveURL: "Not available yet!",
