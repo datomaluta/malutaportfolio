@@ -40,7 +40,7 @@ const Details = () => {
             ></iframe>
           </div>
         ) : (
-          <div className="max-w-[60rem]  mt-8 rounded overflow-hidden flex justify-center">
+          <div className="max-w-[60rem] h-[35rem] w-full mt-8 rounded overflow-hidden flex justify-center">
             <img className="w-full h-full object-cover" src={project.imgsrc} />
           </div>
         )}
@@ -60,7 +60,7 @@ const Details = () => {
             </p>
             <div className="flex gap-2 flex-wrap">
               {project.stack.map((item) => (
-                <p key={item}>{item},</p>
+                <p key={item}>{item};</p>
               ))}
             </div>
           </div>
@@ -92,7 +92,7 @@ const Details = () => {
                 </a>
               </div>
             </>
-          ) : (
+          ) : project.github ? (
             <div className="flex text-white text-xl sm:text-base">
               <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
                 Git Repo:
@@ -101,16 +101,22 @@ const Details = () => {
                 {project.github}
               </a>
             </div>
+          ) : (
+            ""
           )}
 
-          <div className="flex  text-white text-xl sm:text-base">
-            <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
-              Live URL:
-            </p>
-            <a target="_blank" href={project.liveURL}>
-              {project.liveURL}
-            </a>
-          </div>
+          {project.liveURL ? (
+            <div className="flex  text-white text-xl sm:text-base">
+              <p className="font-bold text-orange-500 w-28 sm:w-24 flex-shrink-0 ">
+                Live URL:
+              </p>
+              <a target="_blank" href={project.liveURL}>
+                {project.liveURL}
+              </a>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>

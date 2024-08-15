@@ -1,27 +1,73 @@
 import React from "react";
-import epicImg from "../assets/images/epic_main.jpg";
 import covidQuestionareImg from "../assets/images/covid_questionare.jpg";
 import coronatimeImg from "../assets/images/coronatime.jpg";
-import movieQuotesImg from "../assets/images/moviequotes.jpg";
-import redberryLaptopImg from "../assets/images/redberry_laptop.jpg";
-import sweeftAccImg from "../assets/images/sweeft.jpg";
-import ishopImg from "../assets/images/ishop.jpg";
 import tipcalculatorImg from "../assets/images/tipcalculator.jpg";
-import quizImg from "../assets/images/quiz.jpg";
-import casinoImg from "../assets/images/casino.jpg";
-import foordOrderImg from "../assets/images/foodorder.jpg";
 import farmverstImg from "../assets/images/farmvest.jpg";
-import bankAccImg from "../assets/images/bankacc.jpg";
-import forkifyImg from "../assets/images/forkify.jpg";
 import omnifoodImg from "../assets/images/omnifood.jpg";
 import maliaNewsImg from "../assets/images/news.jpg";
 import natoursImg from "../assets/images/natours.jpg";
 import istoreImg from "../assets/images/istore.png";
 import metablogImg from "../assets/images/metablog.jpg";
+import studypayImg from "../assets/images/studypay.jpg";
+import billingImg from "../assets/images/billing.jpg";
 const ProjectsContext = React.createContext();
 
 export const ProjectsProvider = (props) => {
   const projects = [
+    {
+      id: 20,
+      name: "Customer management and Billing system",
+      imgsrc: billingImg,
+      description: (
+        <ul className="flex flex-col gap-4">
+          <li>
+            A complex platform that combines customer management, billing system
+            and document management capabilities in one space.
+          </li>
+          <li>
+            Registering users, creating roles, assigning roles, displaying
+            transactions, executing transactions, viewing statistics and data
+            with charts, documents, document templates, signing, editing and
+            printing functions.
+          </li>
+        </ul>
+      ),
+      stack: ["React.js", "Javascript", "tailwind", "React hook form"],
+      github: "",
+      liveURL: "",
+    },
+    {
+      id: 19,
+      name: "studypay.ge",
+      imgsrc: studypayImg,
+      description: (
+        <ul className="flex flex-col gap-4">
+          <li>
+            Studypay is a digital accounting and payment platform for
+            educational organizations that simplifies daily operations and
+            financial transactions.
+          </li>
+          <li>
+            The project consists of several parts. The platform has a panel with
+            different actions for legal entities and physical entities.
+          </li>
+
+          <li>
+            In addition, the platform has an admin panel from where everything
+            is controlled and managed.
+          </li>
+        </ul>
+      ),
+      stack: [
+        "React.js",
+        "Javascript",
+        "Typescript",
+        "tailwind",
+        "React hook form",
+      ],
+      github: "",
+      liveURL: "https://studypay.ge",
+    },
     {
       id: 18,
       name: "MERN stack blog",
@@ -78,7 +124,7 @@ export const ProjectsProvider = (props) => {
       videoEmbed: "https://www.youtube.com/embed/n_Fbo5jJ4DE",
       github_back: "https://github.com/datomaluta/inews-back.git",
       github_front: "https://github.com/datomaluta/inews-front.git",
-      liveURL: "Not available yet!",
+      liveURL: "",
     },
     // {
     //   id: 15,
@@ -112,7 +158,7 @@ export const ProjectsProvider = (props) => {
       stack: ["Laravel", "tailwind", "Spatie"],
       videoEmbed: "https://www.youtube.com/embed/vEtbZ80SjEA",
       github: "https://github.com/datomaluta/coronatime-redberry-project",
-      liveURL: "Not Available Yet",
+      liveURL: "",
     },
     // {
     //   id: 12,
