@@ -27,8 +27,8 @@ export const ProjectsProvider = (props) => {
           <li>
             Registering users, creating roles, assigning roles, displaying
             transactions, executing transactions, viewing statistics and data
-            with charts, documents, document templates, signing, editing and
-            printing functions.
+            with charts, documents, document templates, document electronic
+            signature, editing and printing functions.
           </li>
         </ul>
       ),
