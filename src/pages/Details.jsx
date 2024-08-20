@@ -40,7 +40,7 @@ const Details = () => {
             ></iframe>
           </div>
         ) : (
-          <div className="max-w-[60rem] h-[35rem] w-full mt-8 rounded overflow-hidden flex justify-center">
+          <div className="max-w-[60rem] h-auto bg-red-500 w-full mt-8 rounded overflow-hidden flex justify-center">
             <img className="w-full h-full object-cover" src={project.imgsrc} />
           </div>
         )}

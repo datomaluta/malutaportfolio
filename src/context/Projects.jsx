@@ -10,10 +10,73 @@ import istoreImg from "../assets/images/istore.png";
 import metablogImg from "../assets/images/metablog.jpg";
 import studypayImg from "../assets/images/studypay.jpg";
 import billingImg from "../assets/images/billing.jpg";
+import moviequotes from "../assets/images/moviequotes2.jpg";
 const ProjectsContext = React.createContext();
 
 export const ProjectsProvider = (props) => {
   const projects = [
+    {
+      id: 21,
+      name: "MERN Movie Quotes",
+      imgsrc: moviequotes,
+      description: (
+        <ul className="flex flex-col gap-4">
+          <li>
+            Movie quotes - is a bilingual (Georgian - English) Responsive
+            website where users can first register, then login and view quotes
+            from movies.
+          </li>
+          <li>
+            After reaching the landing page, the user can complete the
+            registration, after which he activates the account via email, and
+            then he can enter the system. An alternative is Google
+            Authentication.
+          </li>
+          <li>
+            After authorization, the user has the option to add movies and
+            quotes related to the movie, which will then appear on the newsfeed.
+            The newsfeed has an endless scroll of user-added quotes that can be
+            liked and commented on, after which the author is notified in
+            real-time using websockets.
+          </li>
+          <li>
+            An authorized user can view the movies and quotes added by him in a
+            separate section or search for those added by others.
+          </li>
+
+          <li>
+            It is also possible for the user to update his data and change his
+            password, username and avatar photo. Also reset password if you
+            forget it.
+          </li>
+
+          <li className="text-red-500 underline underline-offset-8">
+            User to test the website- login: admin, password: admin123
+          </li>
+        </ul>
+      ),
+      stack: [
+        "Node.js/Express.js",
+        "React.js",
+        "Javascript",
+        "Typescript",
+        "tailwind",
+        "React hook form",
+        "MongoDB",
+        "Socket.io",
+        "Tanstack/React-query",
+        "JWT - JSON WEB TOKEN",
+        "Firebase",
+        "Redux.js/toolkit",
+        "Framer Motion",
+        "Lazy Load Images",
+        "React Infinite Scroll",
+        "I18Next",
+      ],
+      videoEmbed: "https://www.youtube.com/embed/Js5H0kyuOCE",
+      github: "https://github.com/datomaluta/mern-movie-quotes",
+      liveURL: "https://mern-movie-quotes.onrender.com",
+    },
     {
       id: 20,
       name: "Customer management and Billing system",
@@ -147,7 +210,7 @@ export const ProjectsProvider = (props) => {
       stack: ["React.js", "tailwind", "React hook form"],
       github:
         "https://github.com/datomaluta/covid-questionare-redberry-project",
-      liveURL: "API is dismissed and site can't work in the correct way",
+      liveURL: "",
     },
     {
       id: 13,
